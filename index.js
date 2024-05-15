@@ -138,8 +138,6 @@ const mewtwo = {
     attacks: ["Thunderbolt", "Psychic", "FocusBlast", "ShadowBall"]
 };
 
-startGame();
-
 function validateAttack() {
     isValidAttack = false;
     while (!isValidAttack) {
